@@ -1,0 +1,103 @@
+.section{
+    background-image: url(https://images.unsplash.com/photo-1604014237800-1c9102c219da?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80);
+    height: 99.7vh;
+    background-size: cover;
+    padding: 1px;
+    
+}
+
+.section .white-shade{
+    height: 100%;
+    display: flex; 
+    align-items: center;
+}
+
+.section .white-shade .content{
+    width: 580px;
+    padding: 0 1rem;
+    margin-left:  10rem;
+}
+
+.section .white-shade .content h1{
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.section .white-shade .content h1 span{
+    color: rgb(190, 18, 60);
+}
+
+.section .white-shade .content p{
+    font-size: 1.35rem;
+    margin: 0.8rem 0;
+    line-height: 2rem;
+    text-align: center;
+}
+
+
+.section .white-shade .content .buttons{
+    display: flex;
+    column-gap: 1rem;
+}
+
+
+.section .white-shade .content .buttons button{
+    padding: 0.85rem 3rem;
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+}
+
+.section .white-shade .content .buttons .search{
+    color: white;
+    background-color: rgb(224, 15, 68);
+    font-weight: 600;
+}
+
+.section .white-shade .content .buttons .search:hover{
+    background-color: rgb(190, 18, 60);
+}
+
+.section .white-shade .content .buttons .know{
+    color: rgb(225, 65, 105);
+}
+
+.section .white-shade .content .buttons .know:hover{
+    color: rgb(193, 8, 54);
+   
+}
+
+@media (max-width : 968px) {
+    .section .white-shade .content{
+        margin-left: 2rem;
+    }
+}
+
+
+@media (max-width : 600px) {
+    .section .white-shade .content{
+        margin: 0 auto;
+    }
+
+    .section .white-shade{
+        background-color: #ffffff91; 
+    }
+
+    .section .white-shade .content h1{
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .section .white-shade .content p{
+        font-size: 1rem;
+        line-height: 1.5rem;
+    }
+
+    .section .white-shade .content .buttons{
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+}

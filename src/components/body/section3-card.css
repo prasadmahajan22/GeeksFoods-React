@@ -1,0 +1,53 @@
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 1.5rem;
+    column-gap: 1rem;
+}
+
+.card{
+    width: 385px;
+    
+}
+
+.card .para{
+    
+    padding: 1.5rem;
+    background-color: rgb(249, 250, 251);
+    border-radius: 1rem;
+
+}
+
+.card .para p{
+    line-height: 1.62rem;
+    color: rgba(0, 0, 0, 0.689);
+}
+
+.card .logo-name{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.card .logo-name img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.card .logo-name  .name-designation .name{
+    font-weight: 500;
+    margin-bottom: 0.28rem;
+}
+
+
+@media (max-width : 787px) {
+    .main{
+        padding: 0 1rem;
+    }
+    .card{
+        width: 100%;
+    }
+}
